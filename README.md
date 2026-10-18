@@ -18,6 +18,8 @@ These websites are created solely for portfolio and educational purposes. They a
 - **Web Site:** [Click](https://lutiaoo.github.io/Web_development-portfolio/StellarHire/index.html)
 - **Figma:** [Click](https://www.figma.com/design/MjEftwQ7CeDGXMhIVE9Ae6/landing-page-designs?node-id=0-1&t=KISExjUYf5xWgADG-1)
 - **Progress:** Working on💻
+- **Available For:** PC. (Will be for phone)
+- **Languages:** 🇺🇸 English
 
 ---
 
