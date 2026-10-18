@@ -6,6 +6,10 @@ This repository contains my web development projects, where I practice my skills
 
 ---
 
+### ⚠️ **WARNING: DO NOT ENTER YOUR REAL PASSWORDS ON THESE WEBSITES!**
+These websites are created solely for portfolio and educational purposes. They are not affiliated with real services and do not provide actual functionality. Any login or registration forms are for demonstration purposes only.
+
+---
 ## 📂 Projects
 
 ### 1. StellarHire
