@@ -24,17 +24,17 @@ body{
 	justify-content: center;
 }
 .nav__logo{
-	width: 15vw;
+	width: 20%;
 	display: flex;
 	align-items: center;
 }
 .nav__logo-image{
-	width: 12vw;
+	width: 100%;
 	height: auto;
 }
 /* Navigation Panel */
 .nav__navigation{
-	width: 55vw;
+	width: 50%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -50,7 +50,7 @@ body{
 }
 /* Actions */
 .nav__actions{
-	width: 30vw;
+	width: 30%;
 	display: flex;
 	gap: 2vw;
 	align-items: center;
