@@ -57,11 +57,10 @@ body{
 	justify-content: flex-end;
 }
 .nav__button{
-	width: 7vw;
-	height: 2.5vw;
+	width: 30%;
+	height: 75%;
 	background: white;
-	border: 3px solid;
-	border-color: var(--True-blue);
+	border: 3px solid var(--True-blue);
 	font-size: 20px;
 	font-family: var(--noto-sans-font);
 	font-weight: 700;
@@ -69,5 +68,67 @@ body{
 .nav__button:nth-child(2){
 	background: var(--True-blue);
 	color: white;
-	width: 9.5vw;
+	width: 48%;
+}
+.main{
+	width: 75vw;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.main__info{
+	width: 80%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main__info-hiring{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1vw;
+}
+.main__info-header{
+	font-size: 64px;
+	font-family:var(--Lora-font);
+}
+.main__info-subheader{
+	font-size: 24px;
+	font-family: var(--noto-sans-font);
+}
+.main__info-cta{
+	width: 100%;
+	display: flex;
+	gap: 3.5vw;
+	align-items: center;
+}
+.main__cta-button{
+	width: 40%;
+	height: 3vw;
+	background: white;
+	border: 3px solid var(--True-blue);
+	font-size: 20px;
+	font-family: var(--noto-sans-font);
+	font-weight: 500;
+}
+.main__cta-hyperlink{
+	color: black;
+	font-family: var(--noto-sans-font);
+	font-size: 20px;
+}
+.main__photo{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main__photo-image{
+	width: 60%;
+	transform: scaleX(1.3);
+	border-radius: 50%;
+	
 }
