@@ -7,6 +7,12 @@
 	--noto-sans-font:"Noto Sans", sans-serif; /* 400, 500, 700 */
 	--Lora-font: "Lora", serif; /* 500 */
 	--True-blue: #046EB7;
+	--64px: 3.3333vw;
+	--24px: 1.25vw;
+	--20px: 1.0417vw;
+	--16px: 0.8333vw;
+	--48px: 2.5vw;
+	--14px: 0.7292vw;
 }
 body{
 	width: 100vw;
@@ -41,7 +47,7 @@ body{
 	gap: 2vw;
 }
 .nav__link{
-	font-size: 20px;
+	font-size: var(--24px);
 	text-decoration: none;
 	color: black;
 	width: auto;
@@ -57,18 +63,18 @@ body{
 	justify-content: flex-end;
 }
 .nav__button{
-	width: 30%;
-	height: 75%;
+	width: 6.5vw;
+	height: 2.5vw;
 	background: white;
 	border: 3px solid var(--True-blue);
-	font-size: 20px;
+	font-size: var(--20px);
 	font-family: var(--noto-sans-font);
 	font-weight: 700;
 }
 .nav__button:nth-child(2){
 	background: var(--True-blue);
 	color: white;
-	width: 48%;
+	width: 11vw;
 }
 .main{
 	width: 75vw;
@@ -78,7 +84,7 @@ body{
 }
 .main__info{
 	width: 80%;
-	height: 60vh;
+	padding: 4.5vw 0 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -92,11 +98,11 @@ body{
 	gap: 1vw;
 }
 .main__info-header{
-	font-size: 64px;
+	font-size: var(--64px);
 	font-family:var(--Lora-font);
 }
 .main__info-subheader{
-	font-size: 24px;
+	font-size: var(--24px);
 	font-family: var(--noto-sans-font);
 }
 .main__info-cta{
@@ -110,14 +116,14 @@ body{
 	height: 3vw;
 	background: white;
 	border: 3px solid var(--True-blue);
-	font-size: 20px;
+	font-size: var(--20px);
 	font-family: var(--noto-sans-font);
 	font-weight: 500;
 }
 .main__cta-hyperlink{
 	color: black;
 	font-family: var(--noto-sans-font);
-	font-size: 20px;
+	font-size: var(--20px);
 }
 .main__photo{
 	width: 50%;
