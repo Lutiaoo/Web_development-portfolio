@@ -25,7 +25,7 @@ body{
 /* Logo */
 .nav{
 	width: 75vw;
-	height: 60px;
+	height: 5vw;
 	display: flex;
 	justify-content: center;
 }
@@ -66,7 +66,7 @@ body{
 	width: 6.5vw;
 	height: 2.5vw;
 	background: white;
-	border: 3px solid var(--True-blue);
+	border: 0.2vw solid var(--True-blue);
 	font-size: var(--20px);
 	font-family: var(--noto-sans-font);
 	font-weight: 700;
@@ -75,6 +75,7 @@ body{
 	background: var(--True-blue);
 	color: white;
 	width: 11vw;
+	border: 0;
 }
 .main{
 	width: 75vw;
@@ -115,7 +116,7 @@ body{
 	width: 40%;
 	height: 3vw;
 	background: white;
-	border: 3px solid var(--True-blue);
+	border: 0.2vw solid var(--True-blue);
 	font-size: var(--20px);
 	font-family: var(--noto-sans-font);
 	font-weight: 500;
