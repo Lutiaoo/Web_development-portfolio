@@ -13,7 +13,7 @@
 	--16px: 0.8333vw;
 	--48px: 2.5vw;
 	--14px: 0.7292vw;
-	--gap: 4.5vw 0 0 0;
+	--gap: 7vw 0 0 0;
 }
 .container{
 	display: flex;
@@ -125,7 +125,7 @@
 	font-family: var(--noto-sans-font);
 	font-size: var(--20px);
 }
-.main__photo{
+.main__info-photo{
 	width: 50%;
 	height: 100%;
 	display: flex;
@@ -141,18 +141,19 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 5vw;
+	padding: var(--gap);
+	gap: 2.5vw;
 }
 .main__trust-header{
 	font-size: var(--48px);
-	font-family: var(--noto-sans-font);
+	font-family: var(--Lora-font);
+	font-weight: 500;
 	text-align: center;
 }
 .main__trust-list{
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
-	padding: var(--gap);
 }
 .main__trust-arrow{
 	width: 2vw;
@@ -162,4 +163,53 @@
 }
 .main__trust-companies:nth-child(3), .main__trust-companies:nth-child(4){
 	width: 8vw;
+}
+.main__advantages{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: var(--gap);
+	gap: 3vw;
+}
+.main__advantages-hiring, .main__advantages-automations{
+	width: 100%;
+	display: flex;
+}
+.main__hiring-about, .main__automations-about{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5vw;
+	justify-content: center;
+}
+.main__hiring-header, .main__automations-header{
+	font-size: var(--64px);
+	font-family: var(--Lora-font);
+	font-weight: 400;
+}
+.main__hiring-subheader, .main__automations-subheader{
+	font-size: var(--20px);
+	font-family: var(--noto-sans-font);
+	font-weight: 400;
+}
+.main__hiring-button, .main__automations-button{
+	width: 10vw;
+	height: 2.5vw;
+	font-size: var(--20px);
+	font-family: var(--noto-sans-font);
+	font-weight: 700;
+	color: white;
+	background: var(--True-blue);
+}
+.main__hiring-photo, .main__automations-photo{
+	width: 40%;
+}
+.main__hiring-image, .main__automations-image{
+	width: 100%;
+	height: 100%;
+	transform: scaleX(1.2);
+}
+.main__advantages-automations{
+	gap: 7vw;
 }
