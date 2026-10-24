@@ -204,6 +204,7 @@
 	font-weight: 700;
 	color: white;
 	background: var(--True-blue);
+	border: 0;
 }
 .advantages__photo{
 	width: 40%;
@@ -375,6 +376,7 @@
 .stories__graph-img{
 	width: 90%;
 }
+/* Footer */
 .footer{
 	background: #031926;
 	color: white;
@@ -384,6 +386,7 @@
 	align-items: center;
 	padding: 4vw 0 0 0;
 }
+/* Consult */
 .consult{
 	width: 80%;
 	display: flex;
@@ -419,6 +422,7 @@
 .consult__img{
 	width: 40%;
 }
+/* CTA(Nav in footer) */
 .cta{
 	width: 80%;
 	display: flex;
@@ -453,6 +457,7 @@
 	grid-column: 2;
 	grid-row: 5;
 }
+/* Sign Up Form */
 .cta__signup{
 	width: 40%;
 	display: flex;
