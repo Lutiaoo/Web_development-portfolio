@@ -15,6 +15,9 @@
 	--14px: 0.7292vw;
 	--gap: 7vw 0 0 0;
 }
+button{
+	cursor: pointer;
+}
 .container{
 	display: flex;
 	flex-direction: column;
@@ -390,7 +393,7 @@
 .consult{
 	width: 80%;
 	display: flex;
-	width: 80%;
+
 	padding: 0 0 8vw 0;
 }
 .consult__content{
